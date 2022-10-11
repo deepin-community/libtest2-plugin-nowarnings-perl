@@ -1,0 +1,29 @@
+Source: libtest2-plugin-nowarnings-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Nick Morrott <knowledgejunkie@gmail.com>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libipc-run3-perl <!nocheck>,
+                     libtest-simple-perl (>= 1.302167) <!nocheck>,
+                     libtest2-suite-perl <!nocheck>,
+                     perl
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest2-plugin-nowarnings-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest2-plugin-nowarnings-perl.git
+Homepage: https://metacpan.org/release/Test2-Plugin-NoWarnings
+Rules-Requires-Root: no
+
+Package: libtest2-plugin-nowarnings-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libtest-simple-perl (>= 1.302167)
+Description: Perl testing plugin to fail tests if warnings are generated
+ The Test2::Plugin::NoWarnings plugin causes tests to fail if any warnings
+ are generated whilst the tests run. Each warning generates a new failing
+ test, and the warning content is output via diag.
+ .
+ This module uses $SIG{__WARN__}, so if the code you're testing sets this,
+ this module will stop working.

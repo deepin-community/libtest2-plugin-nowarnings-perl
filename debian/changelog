@@ -1,0 +1,86 @@
+libtest2-plugin-nowarnings-perl (0.09-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * debian/copyright: replace tabs with spaces / remove trailing
+    whitespace.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ gregor herrmann ]
+  * Import upstream version 0.09.
+  * Update years of upstream copyright.
+  * Bump versioned (build) dependency on libtest-simple-perl.
+  * Set Rules-Requires-Root: no.
+  * Bump debhelper-compat to 13.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 07 Jul 2020 22:40:20 +0200
+
+libtest2-plugin-nowarnings-perl (0.08-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.08.
+  * Update debian/upstream/metadata.
+  * Update build dependencies.
+  * Declare compliance with Debian Policy 4.4.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 02 Nov 2019 02:12:31 +0100
+
+libtest2-plugin-nowarnings-perl (0.07-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * Import upstream version 0.07.
+  * Update build and runtime dependencies.
+  * Update years of upstream copyright.
+  * Install new Code of Conduct document.
+  * Annotate test-only build dependencies with <!nocheck>.
+  * Declare compliance with Debian Policy 4.4.0.
+  * Bump debhelper-compat to 12.
+  * debian/watch: use uscan version 4.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 15 Jul 2019 18:22:25 -0300
+
+libtest2-plugin-nowarnings-perl (0.06-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.06.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.0.0.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 08 Jul 2017 16:19:37 +0200
+
+libtest2-plugin-nowarnings-perl (0.05-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.05.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 15 Nov 2016 20:26:36 +0100
+
+libtest2-plugin-nowarnings-perl (0.04-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.04
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 31 Oct 2016 20:16:30 +0100
+
+libtest2-plugin-nowarnings-perl (0.03-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.03.
+  * Add build dependency on libipc-run3-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 22 Oct 2016 22:53:49 +0200
+
+libtest2-plugin-nowarnings-perl (0.02-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #838608)
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Tue, 11 Oct 2016 02:02:24 +0100
