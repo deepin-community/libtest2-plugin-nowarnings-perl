@@ -6,10 +6,11 @@ Testsuite: autopkgtest-pkg-perl
 Priority: optional
 Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: libipc-run3-perl <!nocheck>,
-                     libtest-simple-perl (>= 1.302167) <!nocheck>,
+                     libmodule-pluggable-perl <!nocheck>,
+                     libtest-simple-perl <!nocheck>,
                      libtest2-suite-perl <!nocheck>,
                      perl
-Standards-Version: 4.5.0
+Standards-Version: 4.7.0
 Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest2-plugin-nowarnings-perl
 Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest2-plugin-nowarnings-perl.git
 Homepage: https://metacpan.org/release/Test2-Plugin-NoWarnings
@@ -19,7 +20,7 @@ Package: libtest2-plugin-nowarnings-perl
 Architecture: all
 Depends: ${misc:Depends},
          ${perl:Depends},
-         libtest-simple-perl (>= 1.302167)
+         libtest-simple-perl
 Description: Perl testing plugin to fail tests if warnings are generated
  The Test2::Plugin::NoWarnings plugin causes tests to fail if any warnings
  are generated whilst the tests run. Each warning generates a new failing
