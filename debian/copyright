@@ -4,7 +4,7 @@ Upstream-Contact: Dave Rolsky <autarch@urth.org>
 Upstream-Name: Test2-Plugin-NoWarnings
 
 Files: *
-Copyright: 2020, Dave Rolsky <autarch@urth.org>
+Copyright: 2024, Dave Rolsky <autarch@urth.org>
 License: Artistic-2.0
 
 Files: debian/*

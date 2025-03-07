@@ -1,3 +1,14 @@
+libtest2-plugin-nowarnings-perl (0.10-1) unstable; urgency=medium
+
+  * Team upload.
+  * Import upstream version 0.10.
+  * Add libmodule-pluggable-perl to Build-Depends-Indep.
+  * Update years of upstream copyright.
+  * Declare compliance with Debian Policy 4.7.0.
+  * Drop unneeded version constraints from (build) dependencies.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 14 Apr 2024 00:11:27 +0200
+
 libtest2-plugin-nowarnings-perl (0.09-1) unstable; urgency=medium
 
   * Team upload.
